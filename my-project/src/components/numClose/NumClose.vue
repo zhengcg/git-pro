@@ -16,7 +16,7 @@
         <span>正品数关</span>
       </div>
       <div class="payTip">
-        <span>条件</span>
+        <span></span>
       </div>
       <ul>
         <li>
@@ -360,29 +360,41 @@
       text-align: center;
       font-size: 0.3916rem;
       color: #333;
+      i{
+        vertical-align: middle;
+        display: inline-block;
+        img{
+          vertical-align: middle;
+          width: 0.45rem;
+          height: 0.45rem;
+        }
+      }
       span{
         vertical-align: middle;
+        // margin-right: 0.21rem;
       }
     }
     .payTip{      
       position: relative;
-      height: 0.35rem;
+      height: 0.15rem;
       border-bottom: 0.03rem solid #d1a836;
-      margin-bottom:0.35rem;
+      margin-bottom: 0.4rem;
       span{
         display: block;
         position: absolute;
         width: 1.21rem;
         height: 0.41rem;
-        line-height: 0.41rem;
+        /* line-height: 0.41rem;
         text-align: center;
         color: #fff;
         font-size: 0.3rem;
         border-radius: 0.205rem;
-        background: #d1a836;
+        background: #d1a836; */
         left: 50%;
         margin-left: -0.605rem;
         bottom: -0.23rem;
+        background:url("../../assets/icon/icon31.png") no-repeat center;
+        background-size: 1.21rem 0.41rem;
       }
 
     }
