@@ -15,7 +15,7 @@ axios.defaults.timeout = 5000;
 axios.interceptors.request.use(
     config => {
         // if (store.state.token) {
-            // document.cookie='sjy.session.id=ccd1deb377e647a8a98fb66720daf608'
+            document.cookie='sjy.session.id=ccd1deb377e647a8a98fb66720daf608'
             // config.headers.Authorization = `token ${store.state.token}`;//${}es6语法，在字符串中使用变量。
 
         // }
