@@ -15,6 +15,9 @@ axios.defaults.timeout = 5000;
 axios.interceptors.request.use(
     config => {
         // if (store.state.token) {
+            // 登录接口
+            // http://wx.zhengpinsuyuan.com/login?openId=oksWv05wD3EsjJTXLRD1yAAj-HsY
+
             document.cookie='sjy.session.id=ccd1deb377e647a8a98fb66720daf608'
             // config.headers.Authorization = `token ${store.state.token}`;//${}es6语法，在字符串中使用变量。
 
