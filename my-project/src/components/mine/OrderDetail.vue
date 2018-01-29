@@ -6,9 +6,10 @@
       <h1 v-if="info.step==3">已发货</h1>
       <h1 v-if="info.step==4">已收货</h1>
       <h1 v-if="info.step==5">已关闭</h1>
-      <p v-if="info.saleDays>0">距出栏还有{{info.saleDays}}天，请耐心等待</p>
-      <p v-else>该鸡已经出栏了</p>
-      <p v>您还可以每天关注鸡的运动情况</p>
+      <p v-if="info.saleDays>0&&info.step<3">距出栏还有{{info.saleDays}}天，请耐心等待</p>
+      <p v-if="info.saleDays<=0&&info.step<3">该鸡已经出栏了</p>
+      <p v-if="info.step<3">您还可以每天关注鸡的运动情况</p>
+      <p v-if="info.step>=3">{{info.expressName}}： {{info.expressNumber}}</p>
       
       <router-link :to="{name:'telSer'}">联系客服</router-link>
     </div>
