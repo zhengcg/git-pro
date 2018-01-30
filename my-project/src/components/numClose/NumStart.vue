@@ -11,7 +11,7 @@
         </div>
         <h4>为您的购物保驾护航</h4>
         <p>扫描鸡脚上的二维码，用正品数关进行收货验证</p>
-        <p>正品数关验证不桶过无条件退换</p>
+        <p>正品数关验证不通过无条件退换</p>
         <img src="../../assets/icon/num.png" style="width: 9.02rem;height:5.02rem;display: block;margin-top: 0.8rem;
         margin-left: auto;margin-right: auto">
         <a href="javascript:;" class="btn" @click="gotoCode">启动正品数关</a>
