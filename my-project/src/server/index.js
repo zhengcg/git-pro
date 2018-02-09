@@ -18,7 +18,7 @@ axios.interceptors.request.use(
             // 登录接口
             // http://wx.zhengpinsuyuan.com/login?openId=oksWv05wD3EsjJTXLRD1yAAj-HsY
 
-            document.cookie='sjy.session.id=409ce47543594913b843db963fbf6336'
+            document.cookie='sjy.session.id=1a43fda1d755486ebc2ecf57adc9e489'
             // config.headers.Authorization = `token ${store.state.token}`;//${}es6语法，在字符串中使用变量。
 
         // }
